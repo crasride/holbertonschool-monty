@@ -35,12 +35,13 @@ int main(int argc, char **argv)
 	/* read line by line */
 	while (getline(&ptrline, &n, fs) != -1)
 	{
+		line_number++;
 		op_code = strtok(ptrline, "\n\t\r ");
 		if (op_code != NULL && op_code[0] != '#')
 		{
 			get_func(op_code, &stack, line_number);
 		}
-		line_number++;
+	/*	line_number++; */
 	}
 	exit(EXIT_SUCCESS);
 }
