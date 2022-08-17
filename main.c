@@ -26,6 +26,12 @@ int main(int argc, char **argv)
 		exit(EXIT_FAILURE);
 	}
 
+	/*release variables*/
+
+	on_exit(free_ptrline, &ptrline);
+	on_exit(free_stack, &stack);
+	on_exit(file_close, fs);
+
 	/* read line by line */
 	while (getline(&ptrline, &n, fs) != -1)
 	{
