@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
-* monty_pall - Print all elements of the stack
+* _pall - Print all elements of the stack
 * @stack: Pointer to the first node of the stack
 * @line_number: Current line being executed
 */
