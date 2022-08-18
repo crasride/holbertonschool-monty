@@ -364,7 +364,7 @@ The opcode `nop` doesn’t do anything.
 * nop.c - Contains a function that litterally doesn't do anything.
 * pint.c - Contains a function that prints the value at the top of the stack
 * pop.c - Contains a function that removes the top element of the stack
-* swap.c
+* swap.c - Contains a function that swaps the 2 top two elements of the stack
 * README.md
 * bytecodes (test files):
   - 00.m
