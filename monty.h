@@ -48,6 +48,7 @@ void monty_push(stack_t **stack, unsigned int line_number);
 void add_stack(stack_t **head, const int n);
 void monty_pall(stack_t **stack, unsigned int line_number);
 void nop(stack_t **stack, unsigned int line_number);
+void pint(stack_t **stack, unsigned int line_number);
 
 /* Functionss free and exit */
 void free_stack(int status, void *arg);

@@ -13,7 +13,7 @@ void get_func(char *op_code, stack_t **stack, unsigned int line_number)
 	instruction_t check_functions[] = {
 		{"push", monty_push},
 		{"pall", monty_pall},
-	/*	{"pint", pint},*/
+		{"pint", pint},
 	/*	{"pop", pop},*/
 	/*	{"swap", swap},*/
 	/*	{"add", add},*/
