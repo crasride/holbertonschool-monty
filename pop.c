@@ -1,6 +1,6 @@
 #include "monty.h"
 
-/*
+/**
 * pop - A function that removes the top element of the stack
 * @stack: pointer to the top of the stack
 * @line_number: number of the line where the error is found
