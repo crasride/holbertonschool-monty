@@ -350,6 +350,34 @@ The opcode `nop` doesn’t do anything.
 * GitHub repository: `holbertonschool-monty`
 
 
+## Files
+
+* main.c - Monty bytecode
+* add.c - Contains a function that deletes a node after add its value to the next node
+* add_stack.c - Contains a function that adds new node to stack
+* file_close.c - Contains a function that closes a file
+* free_functions.c - Contains a function that frees a file
+* get_func.c - Search a function in opcode and execute it
+* monty.h - Header file
+* monty_pall.c - Contains a function that prints all elements of the stack
+* monty_push.c - Contains a functions that adds an integer to stack
+* nop.c - Contains a function that litterally doesn't do anything.
+* pint.c - Contains a function that prints the value at the top of the stack
+* pop.c - Contains a function that removes the top element of the stack
+* swap.c
+* README.md
+* bytecodes (test files):
+  - 00.m
+  - 01.m
+  - 03.m
+  - 04.m
+  - test_add.m
+  - test_add2.m
+  - test_pop.m
+  - test_swap.m
+  - test_swap2.m
+
+
 ## Authors   :see_no_evil: :hear_no_evil:
 
 * José Fernandez Armas
