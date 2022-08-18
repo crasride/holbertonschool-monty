@@ -11,7 +11,7 @@ void monty_push(stack_t **stack, unsigned int line_number)
 	char *val;
 	int number, count, check = 0;
 
-/*	printf("A\n"); */ 
+	/*	printf("A\n");*/
 	val = strtok(NULL, "\n\t\r ");
 
 /*	printf("<B\n"); */
