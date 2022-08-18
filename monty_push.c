@@ -11,11 +11,16 @@ void monty_push(stack_t **stack, unsigned int line_number)
 	char *val;
 	int number, count, check = 0;
 
-/*	printf("A\n"); */
+/*	printf("A\n"); */ 
 	val = strtok(NULL, "\n\t\r ");
 
 /*	printf("<B\n"); */
-/*	printf("%p\n", val); */
+/*	printf("%s\n", val); */
+	if (val == NULL)
+	{
+		fprintf(stderr, "L%u: usage: push integer\n", line_number);
+		exit(EXIT_FAILURE);
+	}
 	for (count = 0; val[count]; count++)
 	{
 		if (val[count] == '-' && count == 0)
@@ -23,8 +28,8 @@ void monty_push(stack_t **stack, unsigned int line_number)
 		if (isdigit(val[count]) == 0)
 			check = 1;
 	}
-/*	printf("AB\n");*/
-	if (val == NULL || check)
+/*	printf("AB\n"); */
+	if (check)
 	{
 		fprintf(stderr, "L%u: usage: push integer\n", line_number);
 		exit(EXIT_FAILURE);
