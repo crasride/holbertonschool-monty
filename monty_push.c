@@ -25,6 +25,7 @@ void monty_push(stack_t **stack, unsigned int line_number)
 	{
 		if (val[count] == '-' && count == 0)
 			continue;
+/* A function that compares if a character is a digit or not */
 		if (isdigit(val[count]) == 0)
 			check = 1;
 	}
@@ -35,6 +36,7 @@ void monty_push(stack_t **stack, unsigned int line_number)
 		exit(EXIT_FAILURE);
 	}
 /*	printf("C\n"); */
+/* function converts an ASCII character to an integer */
 	number = atoi(val);
 	add_stack(stack, number);
 }

@@ -17,7 +17,10 @@ void add(stack_t **stack, unsigned int line_number)
 		exit(EXIT_FAILURE);
 	}
 
+/* Define the value */
 	n = (*stack)->n;
+/* Remove the first node */
 	pop(stack, line_number);
+/* add the value to the next node */
 	(*stack)->n += n;
 }
