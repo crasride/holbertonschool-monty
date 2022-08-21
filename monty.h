@@ -54,6 +54,9 @@ void swap(stack_t **stack, unsigned int line_number);
 void add(stack_t **stack, unsigned int line_number);
 void sub_op(stack_t **stack, unsigned int line_number);
 void div_op(stack_t **stack, unsigned int line_number);
+void mul_op(stack_t **stack, unsigned int line_number);
+
+
 
 /* Functionss free and exit */
 void free_stack(int status, void *arg);
