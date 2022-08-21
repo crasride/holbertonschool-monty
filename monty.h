@@ -57,7 +57,6 @@ void div_op(stack_t **stack, unsigned int line_number);
 void mul_op(stack_t **stack, unsigned int line_number);
 void mod_op(stack_t **stack, unsigned int line_number);
 
-
 /* Functionss free and exit */
 void free_stack(int status, void *arg);
 void free_ptrline(int status, void *arg);
