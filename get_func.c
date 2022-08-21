@@ -22,6 +22,7 @@ void get_func(char *op_code, stack_t **stack, unsigned int line_number)
 		{"div", div_op},
 		{"mul", mul_op},
 		{"mod", mod_op},
+		{"pchar", pchar_op},
 		{NULL, NULL}
 	};
 
