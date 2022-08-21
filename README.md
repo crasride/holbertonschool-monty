@@ -469,6 +469,11 @@ julien@ubuntu:~/monty$
 * pop.c - Contains a function that removes the top element of the stack
 * swap.c - Contains a function that swaps the 2 top two elements of the stack
 * README.md
+* sub_op.c - Contains a function that subtracts the top element of the stack from the second
+* div_op.c - A function that divides second top element the stack the top
+* mul_op.c - A function that multiplies the second top element of the stack
+* mod_op.c - A function that computes the rest of the division of the second top element of the stack by the top element of the stack
+* pchar_op.c - A function that prints the char at the top of the stack
 * bytecodes (test files):
   - 00.m
   - 01.m
