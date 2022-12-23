@@ -488,5 +488,19 @@ julien@ubuntu:~/monty$
 
 ## Authors   :see_no_evil: :hear_no_evil:
 
-* José Fernandez Armas
-* Lucie Leroty
+<sub>_ You can contact us at _ 📩
+
+[Leroty Lucie ](https://github.com/luciel53)
+
+<p align="left">
+<a href="https://www.linkedin.com/in/lucie-leroty/" target="blank"><img align="center" src="./images/linked-in-alt.svg" alt="crasride" height="30" width="40" /></a>
+<a href="https://medium.com/@l.leroty" target="blank"><img align="center" src="./images/medium.svg" alt="@crasride" height="30" width="40" /></a>
+<a href="https://github.com/luciel53" target="blank"><img align="center" src="./images/gitl.webp" alt="@crasride" height="30" width="40" /></a>
+
+
+[Fernandez Armas José Daniel](https://github.com/crasride)
+
+<p align="left">
+<a href="https://www.linkedin.com/in/jd-fernandez/" target="blank"><img align="center" src="./images/linked-in-alt.svg" alt="crasride" height="30" width="40" /></a>
+<a href="https://medium.com/@4990" target="blank"><img align="center" src="./images/medium.svg" alt="@crasride" height="30" width="40" /></a>
+<a href="https://github.com/crasride" target="blank"><img align="center" src="./images/github-s.svg" alt="@crasride" height="30" width="40" /></a>
